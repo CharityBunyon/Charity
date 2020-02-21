@@ -1,0 +1,97 @@
+#mainCaro {
+ height: auto;
+ width: auto;
+}
+
+.caroImages {
+  height: 100vh;
+}
+
+.previousBtn {
+  border: 1.5px solid #fff;
+  // margin:400px 0px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: 75vh;
+  left: 5vw;
+}
+
+.nextBtn {
+  border: 1.5px solid #fff;
+  // margin:400px 0px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: 75vh;
+  left: 12vw;
+}
+
+.projectDeets {
+  top: 50vh;
+  left: -45vw;
+  margin: 10px 100px 150px 0px;
+}
+
+.projectTitles {
+  font-size: 70px;
+  color: #fff;
+  font-family: 'Roboto';
+}
+
+.projectLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  padding-right: 305px;
+}
+
+.projectLink:hover {
+  text-decoration: none;
+  color: #f5d328;
+}
+
+.fadTitles {
+  font-size: 70px;
+  color: #fff;
+  font-family: 'Roboto';
+  padding-right: 145px;
+}
+
+.pardonTitles {
+  font-size: 70px;
+  color: #fff;
+  font-family: 'Roboto';
+  padding-right: 125px;
+}
+
+.sandTitles {
+  font-size: 70px;
+  color: #fff;
+  font-family: 'Roboto';
+  padding-right: 90px;
+}
+
+.solarTitles {
+  font-size: 70px;
+  color: #fff;
+  font-family: 'Roboto';
+  padding-right: 45px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .caroImages {
+    height: 85vh;
+  }
+
+  .previousBtn {
+    top: 70vh;
+  }
+
+  .nextBtn {
+    top: 70vh;
+    left: 20vw;
+  }
+}
