@@ -7,7 +7,7 @@ const buildNav = () => {
   const domString = `
   <nav class="navbar navbar-expand-lg navbar-light bg-light mainNav">
   <a class="navbar-brand" href="#">
-  <img src=${logo} class="navImage">
+  <img src=${logo} class="navImage" alt="Brand Image">
   </a>
   <button class="navbar-toggler navTog" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon hamburger"></span>
