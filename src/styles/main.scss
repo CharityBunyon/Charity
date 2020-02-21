@@ -2,4 +2,22 @@
 
 body {
   background-color: #eee;
+  font-family: 'Roboto';
+}
+
+@media only screen and (min-width: 768px) {
+  #mainCaro {
+    height: 10px;
+    width: 10px;
+   }
+
+   .previousBtn {
+    top: 75vh;
+    left: 5vw;
+  }
+  
+  .nextBtn {
+    top: 75vh;
+    left: 20vw;
+  }
 }
