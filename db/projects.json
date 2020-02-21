@@ -25,7 +25,7 @@
   },
   "project4": {
     "title": "Solar System",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Personal-Bio-Site/master/src/images/3%20copy.jpg",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Charity/master/src/images/solarIcon.jpg",
     "description": "Solar System is a single page app that allow users to receive more information about the planets in our solar system.",
     "technologies": "HTML, CSS, Jquery, Javascript, & Bootstrap",
     "url": " https://solar-system-4f715.firebaseapp.com",
