@@ -1,0 +1,21 @@
+.mainNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px 0px;
+}
+.navImage {
+  height: 50px;
+  margin-left: 10px;
+}
+
+#individualLink {
+  margin-left: 50px;
+  font-size: 16px;
+  color: #111;
+  font-family: 'Roboto';
+}
+
+#individualLink:hover {
+  border-bottom: 2px solid #f5d328;
+}
