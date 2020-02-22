@@ -7,7 +7,7 @@ import projects from '../projects/projects';
 const buildProjects = () => {
   projectData.getProjects()
     .then((project) => {
-      let domString = '<div class=""><h4 class="projectTitle">Projects</h4></div>';
+      let domString = '';
       project.forEach((board) => {
         domString += projects.buildProjectCard(board);
       });

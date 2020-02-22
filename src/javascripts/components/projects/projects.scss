@@ -1,44 +1,71 @@
 .projectCard  {
-  width: 500px;
-  height: 400px;
+  // width: 400px;
+  // height: 400px;
   margin-top: 100px;
-  background-color: #000;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  // background-color: #000;
+  border: 1px solid #000;
 }
 .icons {
   width: 122px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 90px;
 }
 
 .projectTitle {
   font-size: 30px;
   color: #f5d328;
+  margin-bottom: 50px;
 }
 
   
-.projectCard {
-  position: relative;
-  // width: 50%;
-} 
+.projectInfo {
+  color: #000;
+  font-size: 19px;
+}
+
+.viewProject,
+.viewGit {
+margin-right: 30px;
+color: #f5d328;
+
+}
+
+.viewProject:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+  color: #f5d328;
+}
+
+.viewGit:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+  color: #f5d328;
+}
+
+
 
 .overlay {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
+  top: 0px;
+  bottom: 0px;
+  left: -4px;
   right: 0;
-  height: 100%;
-  width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(https://images.unsplash.com/photo-1545873509-33e944ca7655?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-color: #fff;
   // border: solid 1px darkgoldenrod;
-  // outline-offset: 20px;
-  width: 500px;
-  height: 402px;
+  outline-offset: 20px;
+  width: 30.2rem;
+  height: 350px;
   // border: 20px solid #d3d3d3;
   // box-shadow: inset 0px 0px 0px 5px darkgoldenrod;
   box-sizing: border-box;
+  padding: 50px 50px 50px 52px;
+  // border: 20px solid #fff;
+
+  
 }
 
 .projectCard:hover .overlay {
