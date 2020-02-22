@@ -6,6 +6,7 @@ import about from './components/about/about';
 import skills from './components/skills/skills';
 import title from './components/projectTitle/projectTitle';
 import projectDisplay from './components/projectDisplay/projectDisplay';
+import contact from './components/contact/contact';
 
 
 const init = () => {
@@ -15,6 +16,7 @@ const init = () => {
   skills.buildSkillSection();
   title.buildTitle();
   projectDisplay.buildProjects();
+  contact.buildContactSection();
 };
 
 init();

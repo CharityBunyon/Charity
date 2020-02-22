@@ -64,10 +64,14 @@ color: #f5d328;
   box-sizing: border-box;
   padding: 50px 50px 50px 52px;
   // border: 20px solid #fff;
-
-  
 }
 
 .projectCard:hover .overlay {
   opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+.overlay {
+  width: 400px;
+}
 }

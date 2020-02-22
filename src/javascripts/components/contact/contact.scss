@@ -1,0 +1,36 @@
+.contactArea {
+  margin-top: 100px;
+}
+
+.contactInfo {
+background-color: #f5d328;
+color: #fff;
+width: 100vw;
+padding: 100px 100px 0px 100px;
+}
+
+.connectTitle {
+  margin-bottom: 40px;
+}
+
+
+
+.contactEmail a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.contactEmail a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .emoji {
+    width: 370px;
+  }
+  .contactInfo {
+    padding: 50px 50px 50px 50px;
+  }
+}

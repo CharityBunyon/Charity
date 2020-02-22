@@ -16,16 +16,16 @@ const buildNav = () => {
   <div class="collapse navbar-collapse hamburger" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mainLinks container  justify-content-end">
       <li class="nav-item">
-        <a class="nav-link" id="individualLink" href="#">About</a>
+        <a class="nav-link" id="individualLink" href="#about">About</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link" id="individualLink" href="#">Skills</a>
+      <a class="nav-link" id="individualLink" href="#skills">Skills</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" id="individualLink" href="#">Projects</a>
+        <a class="nav-link" id="individualLink" href="#title">Projects</a>
       </li>
     <li class="nav-item">
-      <a class="nav-link" id="individualLink" href="#">Contact</a>
+      <a class="nav-link" id="individualLink" href="#contact">Contact</a>
     </li>
   </div>
 </nav>
