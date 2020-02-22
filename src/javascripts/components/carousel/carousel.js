@@ -2,10 +2,10 @@ import './carousel.scss';
 import utilities from '../../helpers/utilities';
 
 import create from '../../../images/Create.png';
-import fad from '../../../images/Fad.png';
+// import fad from '../../../images/Fad.png';
 import pardon from '../../../images/Pardon.png';
 import sandwich from '../../../images/Sandwich.png';
-import solar from '../../../images/Solar.png';
+// import solar from '../../../images/Solar.png';
 
 
 const buildCarousel = () => {
@@ -25,13 +25,6 @@ const buildCarousel = () => {
             </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100 caroImages" src=${fad}>
-          <div class="carousel-caption d-none d-md-block projectDeets">
-            <p class="fadTitles">Fadterest</p>
-            <a class="projectLink" href="https://pinterest-d9513.firebaseapp.com/">View Project</a>
-          </div>
-        </div>
-        <div class="carousel-item">
           <img class="d-block w-100 caroImages" src=${pardon}>
           <div class="carousel-caption d-none d-md-block projectDeets">
             <p class="pardonTitles">Pardon Us</p>
@@ -45,13 +38,7 @@ const buildCarousel = () => {
             <a class="projectLink" href="https://sandwich-maker-a04f9.firebaseapp.com/">View Project</a>
           </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 caroImages" src=${solar}>
-          <div class="carousel-caption d-none d-md-block projectDeets">
-            <p class="solarTitles">Solar System</p>
-            <a class="projectLink" href="https://solar-system-4f715.firebaseapp.com/">View Project</a>
-          </div>
-        </div>
+        
       </div>
       <a class="carousel-control-prev previousBtn" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

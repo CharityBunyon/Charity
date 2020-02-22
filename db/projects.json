@@ -29,8 +29,8 @@
     "github": "https://github.com/CharityBunyon/solar-system"
   },
   "project5": {
-    "title": "Pardon Us Band Website",
-    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Charity/master/src/images/rock2.jpg",
+    "title": "Pardon Us",
+    "projectImg": "https://raw.githubusercontent.com/CharityBunyon/Charity/master/src/images/rock.jpg",
     "description": "Pardon Us are a three-piece DIY punk band from Liverpool, formed in 2014. Pardon Us is group project I completed for a band called Pardon Us. I completed the ABOUT page. I used HTML, CSS, Javascript, and Bootstrap to build this application.",
     "technologies": "HTML, CSS, Javascript, Bootstrap",
     "url": "https://pardon-us.firebaseapp.com/",
