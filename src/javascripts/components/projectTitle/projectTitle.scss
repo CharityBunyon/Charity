@@ -3,10 +3,18 @@
    }
 
    .project {
-    margin-right: 50%;
+    margin-right: 80%;
+    margin-left: 20px;
     margin-bottom: 40px;
-    margin-top: 20%;
+    margin-top: 10%;
     background-color: #f5d328;
     color: #fff;
     padding: 20px 14px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .project {
+        margin-left: 20px;
+        margin-right: 40%;
+      }
     }
